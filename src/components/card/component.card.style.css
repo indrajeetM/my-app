@@ -1,0 +1,21 @@
+.card-item{
+   
+    width: 85vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+.card-container{
+    background-color: aqua;
+    border-radius: 20px;
+    cursor: pointer;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition:  transform 0.25s ease-out;
+
+}
+.card-container:hover{
+    box-shadow: 2px 2px 2px 2px #bababa;
+    transform: scale(1.05);
+}
